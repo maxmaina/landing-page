@@ -45,6 +45,10 @@ button {
 }
 
 .middle-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
@@ -72,6 +76,8 @@ button {
 }
 
 .footer {
+    display: flex;
+    justify-content: center;
     background-color: #1f2937;
     color: #f9faf8;
 }
