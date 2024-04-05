@@ -25,3 +25,18 @@ ul {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+button {
+    background-color: #3882f6;
+}
+
+.middle-one {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.box {
+    font-size: 18px;
+    color: #1f2937;
+}
