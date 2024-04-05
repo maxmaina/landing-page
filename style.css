@@ -25,8 +25,12 @@ ul {
 }
 
 .top {
+    display: flex;
+    flex-direction: column;
     background-color: #1f2937;
     font-size: 48px;
+    padding: 36px;
+    flex: 1;
     font-weight: bolder;
     color: #f9faf8;
 }
