@@ -44,6 +44,11 @@ ul {
 
 button {
     background-color: #3882f6;
+    color: white;
+    border-width: 1px;
+    border-radius: 4px;
+    width: 100px;
+    height: 30px;
 }
 
 .middle-one {
@@ -76,13 +81,19 @@ button {
 }
 
 .middle-three  {
+    display: flex;
+    padding: 32px;
     background-color: #3882f6;
     color: #f9faf8;
 }
 
+.middle-three button {
+    border-color: white;
+}
 .footer {
     display: flex;
     justify-content: center;
+    padding: 16px;
     background-color: #1f2937;
     color: #f9faf8;
 }
