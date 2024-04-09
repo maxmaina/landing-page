@@ -53,17 +53,41 @@ button {
 .middle-one {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     font-size: 36px;
     padding: 32px;
     font-weight: bolder;
     color: #1f2937;
 }
 
-.box {
-    font-size: 18px;
+.border {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border: 3px solid #3882f6;
+    border-radius: 12px;
+    margin: 0;
     color: #1f2937;
+}
+
+.gallery {
+    max-width: 150px;
+    text-align: center;
+    padding: 8px;
+    margin: 8px;
+}
+
+.display  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 32px;
+}
+.text {
+    font-size: 14px;
+    text-wrap: wrap;
+    padding-top: 8px;
 }
 
 .middle-two {
@@ -81,6 +105,7 @@ button {
 
 .middle-three  {
     display: flex;
+    flex-direction: column;
     padding: 32px;
     background-color: #3882f6;
     color: #f9faf8;
