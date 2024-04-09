@@ -93,6 +93,8 @@ button {
 
 .middle-two {
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 32px;
     background-color: #E5E7EB;
 }
