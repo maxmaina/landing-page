@@ -100,12 +100,15 @@ button {
 }
 
 .quote {
+    display: flex;
+    flex-direction: column;
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
     text-wrap: wrap;
     padding: 100px;
     margin: 100px;
+    gap: 32px;
 }
 
 .thor {
