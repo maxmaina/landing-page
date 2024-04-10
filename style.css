@@ -106,8 +106,6 @@ button {
     font-style: italic;
     font-weight: lighter;
     text-wrap: wrap;
-    padding: 100px;
-    margin: 100px;
     gap: 32px;
 }
 
@@ -121,18 +119,30 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 100px;
+    margin: 100px;
 }
 
 .middle-three  {
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     padding: 32px;
     background-color: #3882f6;
     color: #f9faf8;
+    border-radius: 12px;
+    /* height: auto;
+    width: 1000px; */
+    margin: 100px;
 }
 
 .middle-three button {
     border-color: white;
+}
+
+.call {
+    display: flex;
+    flex-direction: column;
 }
 .footer {
     display: flex;
